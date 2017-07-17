@@ -1,3 +1,3 @@
-# Polygon Disseminator
+# Polybot
 
-Polygons for merit. Polymerit.
+This is a bot that facilitates micro-credentials.
