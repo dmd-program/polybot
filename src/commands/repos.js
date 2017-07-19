@@ -7,7 +7,7 @@ const trending = require('github-trending')
 
 const msgDefaults = {
   response_type: 'in_channel',
-  username: 'Starbot',
+  username: 'PolyBot',
   icon_emoji: config('ICON_EMOJI')
 }
 
