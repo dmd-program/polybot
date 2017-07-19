@@ -34,6 +34,6 @@ trending('javascript', (err, repos) => {
   bot.sendWebhook(msg, (err, res) => {
     if (err) throw err
 
-    console.log(`\n🚀  Polybot report delivered 🚀`)
+    console.log(`\n🚀  PolyBot report delivered 🚀`)
   })
 })

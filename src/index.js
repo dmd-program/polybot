@@ -28,7 +28,7 @@ app.post('/commands/polybot', (req, res) => {
   let payload = req.body
 
   if (!payload || payload.token !== config('STARBOT_COMMAND_TOKEN')) {
-    let err = '✋  Star—what? An invalid slash token was provided\n' +
+    let err = '✋  An invalid slash token was provided\n' +
               '   Is your Slack slash token correctly configured?'
     console.log(err)
     res.status(401).end(err)
@@ -45,7 +45,7 @@ app.post('/commands/polybot', (req, res) => {
 app.listen(config('PORT'), (err) => {
   if (err) throw err
 
-  console.log(`\n🚀  Starbot LIVES on PORT ${config('PORT')} 🚀`)
+  console.log(`\n🚀  PolyBot LIVES on PORT ${config('PORT')} 🚀`)
 
   if (config('SLACK_TOKEN')) {
     console.log(`🤖  beep boop: @polybot is real-time\n`)
