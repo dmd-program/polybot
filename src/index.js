@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => { res.send('\n 👋 🌍 \n') })
 
-app.post('/commands/starbot', (req, res) => {
+app.post('/commands/polybot', (req, res) => {
   let payload = req.body
 
   if (!payload || payload.token !== config('STARBOT_COMMAND_TOKEN')) {
@@ -48,7 +48,7 @@ app.listen(config('PORT'), (err) => {
   console.log(`\n🚀  Starbot LIVES on PORT ${config('PORT')} 🚀`)
 
   if (config('SLACK_TOKEN')) {
-    console.log(`🤖  beep boop: @starbot is real-time\n`)
+    console.log(`🤖  beep boop: @polybot is real-time\n`)
     bot.listen({ token: config('SLACK_TOKEN') })
   }
 })
