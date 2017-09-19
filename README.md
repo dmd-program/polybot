@@ -1,10 +1,16 @@
 # Polybot
 
-Goals:
+**Goals:**
+
+The DMD Program is entirely online. This presents a challenge to maintain a sense of culture. We hope micro-credentials will:
 
 - Increase student engagement with DMD Program's web presence
-  - Provide incentives to interact and discover
-  - Reinforce digital culture of program
+  - Provide moments for students to interact, explore, and discover
+  - Reinforce digital design culture of program
   - Motivate students to want to learn supplemental content and skills
-- Automate micro-credentialing process to minimize paperwork for faculty
-- Allow students to show off their micro-credentials through public-facing student portfolios
+  - Increase sense of competition amongst students
+- Automate micro-credentialing process to minimize workload for busy faculty
+- Allow for transportability of credential information
+  - Micro-credentials to appear on the DMD Program's hosted student portfolios
+  - This portfolio will go with the students when they graduate, and so shall the credentials
+  - Future-proof the credentials 
